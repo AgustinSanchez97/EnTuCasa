@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagenes/Icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="bodyGrid">
+
+        <header class="grid" >
+            <div id="flexHeader">
+                <h3 id="logo">LOGO</h3>
+                <div class="dropdown">
+                    <button class="navigationButton">Navigation</button>
+                    <nav>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><div class="storeButton">
+                                    <button class="dropbtn">
+                                        <a href="Store.html">Tienda</a>
+                                    </button>
+                                    <div id="storeContent">
+                                        <a href="Store.html">Bebidas</a>
+                                        <a href="Store.html">Almacen</a>
+                                      <a href="Store.html">Limpieza</a>
+                                    </div>
+                                  </div>
+                                </li>                  
+                                <li><a href="ToBuy.html">En tu carro</a></li>
+                                <li><a href="Login.html" id="login">Ingresar</a></li> 
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+ 
+        </header>
+
+    <section class="grid" id="sectionOneIndex">
+        <div>
+            <!--FORMULARIO-->
+            <form action="#"> <!--Etiqueta padre-->
+                <h2>Formulario</h2>
+                <label for="name">Nombre:</label>
+                <input type="text" required>
+                <br>
+                <label for="surname">Apellido:</label>
+                <input type="text" required>
+                <br>
+                <label for="mail">Mail:</label>
+                <input type="email" name="" id="" required>
+                <br>
+                <label for="age">Edad:</label>
+                <input type="number" required>
+                <br>
+                <label for="gender">Femenino:</label>
+                <input type="checkbox" name="" id="" required>
+                <br>
+                <label for="gender">Masculino:</label>
+                <input type="checkbox" name="" id="" required>
+                <br>
+                <label for="gender">No Binario:</label>
+                <input type="checkbox" name="" id="" required>
+                <br>
+                <button type="submit">Enviar</button>
+                <br><br>
+                <select name="Region" id="">
+                    <option value="option1">elegir opcion</option>
+                    <option value="option2">Argentina</option>
+                    <option value="option3">Colombia</option>
+                    <option value="option4">Venezuela</option>
+                </select>
+            </form>
+        </div>
+    </section>
+    <section class="grid" id="sectionTwoIndex">
+        <div>
+            <p>
+                Desde "En tu casa" podes ver todo lo comprado hasta ahora a traves de esta pagina para tener un control de los productos que consumis
+            </p>
+
+        </div>
+    </section>
+
+
+    <section class="grid" id="sectionFooter">
+        <div>
+            <form action="#"> <!--Etiqueta padre-->
+                <h2>Buscar Productos</h2>
+                <label for="name">Producto:</label>
+                <input type="text" required>
+            </form>
+        </div>
+    </section>
+
+    <footer class="grid">
+        <nav id="subNav">
+            <div>
+                <hr>
+                CANALES DE COMUNICACIÓN
+                <button>
+                    Facebook
+                </button>
+                <button>
+                    Instagram
+                </button>
+                <button>
+                    Twitter
+                </button>
+                <a href="Contact.html">Contacto</a>
+                <hr>
+            </div>
+
+        </nav>
+    </footer>
+</div>
+</body>
+</html>
