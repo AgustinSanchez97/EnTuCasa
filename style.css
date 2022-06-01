@@ -15,6 +15,13 @@ li a{
     color: black;
 }
 
+li a:hover {
+          
+    color: white;
+transition: all 1s;
+  
+}
+
 .flexImages{
     display: flex;
     justify-content: center;
@@ -25,6 +32,8 @@ li a{
     height: auto;
     margin: auto;
 }
+
+
   @media screen and (max-width:768px) {
 
     #bodyGrid{
@@ -72,7 +81,7 @@ li a{
 
     #sectionFooter{
         grid-area: prefooter;
-        background-color: #FF3737;
+        background-image: linear-gradient(to bottom,#FF3737,#ff4343,#ff5e5e , #ff8080);
         display: inline-flex;
         align-content: center;
         justify-content: center;
@@ -80,6 +89,7 @@ li a{
 
     footer{
         background-color: white;
+        
         grid-area: footer;
 
     }
@@ -182,6 +192,7 @@ li a{
 
 .navigationButton{
     display: none;
+    
 }
 
 .dropdown-content{
@@ -206,10 +217,11 @@ li a{
     display: none;
     background-color: #FF3737;
     position: absolute;
+    
     /* display: flex;
     flex-direction: column; */
-            
-            
+    
+
     
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }
@@ -226,7 +238,7 @@ li a{
         color: black;        
         padding: 12px 16px;    
         text-decoration: none;
-        
+        transition: all 1s;
         
         
         
@@ -239,8 +251,11 @@ li a{
           background-color: #EA5C2B;
         }
         
+        
+
         /* Show the dropdown menu on hover */
-        .storeButton:hover #storeContent{            
+        .storeButton:hover #storeContent{
+            
             display: flex;
             flex-direction: column;
             
@@ -251,7 +266,8 @@ li a{
 
 header{
     grid-area: header;
-    background-color: #FF3737;
+    background-image: linear-gradient(to bottom, #b62b2b,#e03535,#FF3737);
+    
     position: fixed;
     width:100%;
     height: 100px;
@@ -281,7 +297,7 @@ header{
 
 #sectionFooter{
     grid-area: prefooter;
-    background-color: #FF3737;
+    background-image: linear-gradient(to bottom,#FF3737,#ff4343,#ff5e5e , #ff8080);
     display: inline-flex;
     align-content: center;
     justify-content: center;
