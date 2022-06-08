@@ -11,6 +11,27 @@ body{
 
 }
 
+.buttonCatalog{
+    background-color: #dc3545;
+    
+    
+}
+.buttonClothesType{
+    background-color: #dcd135;
+    
+
+}
+
+.buttonClothesDetail{
+    background-color: #64dc35;
+
+}
+
+.catalogMenu{
+    display: flex;
+    gap: 10px;
+}
+
 ul li{
     text-decoration: none;
     list-style: none;
@@ -38,258 +59,30 @@ li a{
 }
 
 
+/* STYLE PARA MOBILE */
 
   @media screen and (max-width:768px) {
 
-    #bodyGrid{
-        display: grid;
-        grid-template-areas:"header "
-                            "promo "
-                            "productos "
-                            "prefooter"
-                            "footer ";
-        grid-template-rows: 90px auto auto 120px auto;
-        grid-template-columns: 100%;
-        
-    }
-    
-    
-    #flexHeader{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-        
-
-    }
-    #mainNav{
-        grid-area: menu;
-    }
-    
-    #sectionOneIndex{
-        grid-area: promo;
-        background-color: #560A0A;
-    }
-    
-    #sectionTwoIndex{
-        grid-area: productos;
-        background-color: #149C94;
-    }
-
-    #sectionFooter{
-        grid-area: prefooter;
-        background-image: linear-gradient(to bottom,#FF3737,#ff4343,#ff5e5e , #ff8080);
-        display: inline-flex;
-        align-content: center;
-        justify-content: center;
-    }
-
-    footer{
-        background-color: white;
-        
-        grid-area: footer;
-
-    }
-    
 
 
 
-    
-/* Dropdown Button */
-    .navigationButton {
+  }
 
-        background-color: black;
-        color: #FF3737;
-        /* Si se cambia tamaño de la imagen del nav modificar para que quede bien el menu desplegable */
-        padding: 13px;
-        font-size: 16px;
-        border: none;
-        }
-        .dropbtn{
-            background-color: transparent;
-            border: none;
-        }
-        
-        
-        /* Dropdown Content (Hidden by Default) */
-        .dropdown-content {
-        
-        position: absolute;
-        
-        top: 90px;
-        width: 320px;
-        transform: translateX(320px);
-        transition: transform .25s;
 
-        
-        
 
-        background-color: #FF3737;
-        
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-        
-        }
-        
-        /* Links inside the dropdown */
-        .dropdown-content a {
-        color: black;
-        
-        padding: 40% 16px;
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        }
-        
-        /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {
-          
-            
-          background-color: #EA5C2B;
-        }
-        
-        /* Show the dropdown menu on hover */
-        .dropdownPersonal:hover .dropdown-content {
-            display: flex;
-            flex-direction: column;
-            transform: translateX(-203px);
-    transition: transform .25s;
-        }
-        
-        /* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdownPersonal:hover .navigationButton {background-color: white;}
-            
-    
-}
 
 /* STYLE PARA PC */
 
 @media screen and (min-width:1000px) {
-   body{
-       background-color: white;
-   }
-   #bodyGrid{
-    display: grid;
-    grid-template-areas:"header "
-                        "promo "
-                        "productos "
-                        "prefooter"
-                        "footer ";
-    grid-template-rows: 90px auto 600px 120px auto;
-    grid-template-columns: 100%;
-    
-}
+   
+
 
 .mainCarousel{
     max-width: 900px;
     max-height: 550px;
 }
 
-.navigationButton{
-    display: none;
-    
-}
 
-.dropdown-content{
-    
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    top: 0%;
-    
-}
-.dropdown-content ul{
-    height: 100px;
-    margin: 0% 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    justify-content: space-around;
-}
-
-#storeContent{
-    display: none;
-    background-color: #FF3737;
-    position: absolute;
-    
-    
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-}
-
-.dropbtn{
-    background-color: transparent;
-    border: none;
-}
-        
-        /* Links inside the dropdown */
-        #storeContent a {
-            border-style:solid;
-            border-width: 1px;
-        color: black;        
-        padding: 12px 16px;    
-        text-decoration: none;
-        transition: all 1s;
-        
-        
-        
-        }
-        
-        /* Change color of dropdown links on hover */
-        #storeContent a:hover {
-          
-            
-          background-color: #EA5C2B;
-        }
-        
-        
-
-        /* Show the dropdown menu on hover */
-        .storeButton:hover #storeContent{
-            
-            display: flex;
-            flex-direction: column;
-            
-        }
-
-
-
-
-#flexHeader{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 0px 20px;
-    height: 100px;
-
-}
-
-
-
-
-#sectionOneIndex{
-    grid-area: promo;
-    background-color: #560A0A;
-}
-
-#sectionTwoIndex{
-    grid-area: productos;
-    background-color: #149C94;
-}
-
-#sectionFooter{
-    grid-area: prefooter;
-    background-image: linear-gradient(to bottom,#FF3737,#ff4343,#ff5e5e , #ff8080);
-    display: inline-flex;
-    align-content: center;
-    justify-content: center;
-}
-
-footer{
-    background-color: white;
-    grid-area: footer;
-
-}
 }
 
 
