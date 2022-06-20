@@ -1,0 +1,78 @@
+// Variables
+$mainColor: #FF3737;
+$hoverColor: #c7bb11;
+
+@mixin cleanText() {
+    text-decoration: none;
+    list-style: none;
+    //color:$textColor
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+}
+
+@import "store";
+
+ul
+{
+    li{
+        @include cleanText;
+    } 
+}
+li 
+{
+    a{
+        //@include cleanText(black);
+        @include cleanText;
+        color: black;
+    }
+
+}
+
+.hoverable{
+    color: white;
+    transition: all 1s;
+
+}
+.hoverable:hover{
+    color: $hoverColor;
+    transition: all 1s;
+
+}
+
+.flexImages{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* STYLE PARA MOBILE */
+
+  @media screen and (max-width:768px) {
+
+
+
+
+  }
+
+
+
+
+/* STYLE PARA PC */
+
+@media screen and (min-width:1000px) {
+   
+
+
+.mainCarousel{
+    max-width: 900px;
+    max-height: 550px;
+}
+
+
+}
+
+

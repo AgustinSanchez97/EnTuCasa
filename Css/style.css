@@ -1,0 +1,52 @@
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: black; }
+
+.cardImgStyle {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; }
+
+.storeButton {
+  width: 70%; }
+
+.buttonCatalog {
+  background-color: #FF3737; }
+
+.buttonClothesType {
+  background-color: #dcd135; }
+
+.buttonClothesDetail {
+  background-color: #64dc35; }
+
+.catalogMenu {
+  display: flex;
+  gap: 10px; }
+
+ul li {
+  text-decoration: none;
+  list-style: none; }
+
+li a {
+  text-decoration: none;
+  list-style: none;
+  color: black; }
+
+.hoverable {
+  color: white;
+  transition: all 1s; }
+
+.hoverable:hover {
+  color: #c7bb11;
+  transition: all 1s; }
+
+.flexImages {
+  display: flex;
+  justify-content: center; }
+
+/* STYLE PARA MOBILE */
+/* STYLE PARA PC */
+@media screen and (min-width: 1000px) {
+  .mainCarousel {
+    max-width: 900px;
+    max-height: 550px; } }

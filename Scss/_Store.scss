@@ -1,0 +1,34 @@
+
+
+.cardImgStyle{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.storeButton{
+    width: 70%;
+    
+}
+
+.buttonCatalog{
+    background-color: $mainColor;
+    
+    
+}
+
+.buttonClothesType{
+    background-color: #dcd135;
+    
+
+}
+
+.buttonClothesDetail{
+    background-color: #64dc35;
+
+}
+
+.catalogMenu{
+    display: flex;
+    gap: 10px;
+}
