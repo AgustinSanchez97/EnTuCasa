@@ -3,6 +3,10 @@ body {
   margin: 0px;
   background-color: black; }
 
+.carouselText {
+  color: white;
+  background-color: #0000009a; }
+
 .mainStyle {
   margin-top: 80px;
   margin-bottom: 40px; }
