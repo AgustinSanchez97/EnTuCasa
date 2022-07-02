@@ -27,10 +27,10 @@
   <header>
     <nav class="navbar navbar-expand-lg  navbar-dark bg-danger fixed-top">
         <div class="container-fluid ">
-          <a class="navbar-brand" href="index.html" target="_blank">
-            <img src="Imagenes/Icon_40x40.png" alt="">
-          </a>
-          <!-- <a class="navbar-brand" href="index.html" target="_blank"><h1> Logo</h1></a> -->
+          <h1 class="d-none">  EnTuCasa</h1>
+          <a class="navbar-brand" href="index.html">
+            <img src="Imagenes/EnTuCasa_Icon.png" alt="Logo de En Tu Casa">
+          </a>              
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,28 +38,28 @@
             <ul class="navbar-nav w-100 d-flex justify-content-evenly">
               
               <li class="nav-item">
-                <a class="nav-link hoverable" href="index.html" target="_blank">Casa</a>
+                <a class="nav-link hoverable fw-semibold fs-5 btn rounded-5 buttonHeader" href="index.html" >Casa</a>
               </li>                  
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle hoverable" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Tienda
-                </a>
+              <li class="nav-item dropdown">                                        
+                  <a class="nav-link dropdown-toggle hoverable fw-semibold fs-5 btn rounded-5 buttonHeader"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tienda
+                  </a>                    
                 <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item hoverable" href="Store.html" target="_blank">Pantalones</a></li>
+                  <li><a class="dropdown-item hoverable " href="Store.html">Pantalones</a></li>
                   <li><hr class="dropdown-divider hoverable"></li>
-                  <li><a class="dropdown-item hoverable" href="Store.html" target="_blank">Remeras</a></li>
+                  <li><a class="dropdown-item hoverable" href="Store.html">Remeras</a></li>
                   <li><hr class="dropdown-divider hoverable"></li>
-                  <li><a class="dropdown-item hoverable" href="Store.html" target="_blank">Zapatos</a></li>
+                  <li><a class="dropdown-item hoverable" href="Store.html">Zapatos</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link hoverable" href="ToBuy.html" target="_blank">En tu carro</a>
+                <a class="nav-link hoverable fw-semibold fs-5 btn rounded-5 buttonHeader" href="ToBuy.html">En tu carro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link hoverable" href="Contact.html" target="_blank">Contacto</a>
+                <a class="nav-link hoverable fw-semibold fs-5 btn rounded-5 buttonHeader" href="Contact.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link hoverable" href="Login.html" target="_blank">Ingresar</a>
+                <a class="nav-link hoverable fw-semibold fs-5 btn rounded-5 buttonHeader" href="Login.html">Ingresar</a>
               </li>
             </ul>
           </div>
@@ -70,162 +70,173 @@
           
   
   
-      <main class="container " style="margin-top:80px;">        
-
-        <!-- CATALOGO -->
-
-        <div class="d-flex flex-column justify-content-center storeButton m-auto">
-
-          <p class="d-flex justify-content-center m-auto storeButton">          
-            <button class="btn btn-primary buttonCatalog storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#catalaogCollapse" aria-expanded="false" aria-controls="collapseExample">
-              Catalogo
-            </button>
-          </p>
-          <div class="collapse " id="catalaogCollapse">
-            <div class="d-flex flex-column">
-
-              <p class="d-flex justify-content-center m-auto storeButton ">          
-                <button class="btn btn-primary buttonClothesType storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#shoesCollapse" aria-expanded="false" aria-controls="collapseExample">
-                  Calzado
-                </button>
-              </p>
-  
-              <div class="collapse" id="shoesCollapse">
-                <div class="catalogMenu">
-                  <p class="d-flex justify-content-center m-auto storeButton">          
-                    <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
-                      
-                      Zapatillas
-                    </button>
-                  </p>
-                </div>
-                <div class="catalogMenu">
-                  <p class="d-flex justify-content-center m-auto storeButton">          
-                    <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
-                      
-                      Zapatos
-                    </button>
-                  </p>
-                </div>
-              </div>
-          
+      <main class="container mainStyle">        
 
 
-              <p class="d-flex justify-content-center m-auto storeButton">          
-                <button class="btn btn-primary buttonClothesType storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#shirtsCollapse" aria-expanded="false" aria-controls="collapseExample">
-                  Remeras
-                </button>
-              </p>
-  
-              <div class="collapse" id="shirtsCollapse">
-                <div class="catalogMenu">
-                  <p class="d-flex justify-content-center m-auto storeButton">          
-                    <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
-                      
-                      Mangas largas
-                    </button>
-                  </p>
-                </div>
-                <div class="catalogMenu">
-                  <p class="d-flex justify-content-center m-auto storeButton">          
-                    <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
-                      
-                      Mangas cortas
-                    </button>
-                  </p>
-                </div>
-              </div>
-
-
-              <p class="d-flex justify-content-center m-auto storeButton">          
-                <button class="btn btn-primary buttonClothesType storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#pantsCollapse" aria-expanded="false" aria-controls="collapseExample">
-                  Pantalones
-                </button>
-              </p>
-  
-              <div class="collapse" id="pantsCollapse">
-                <div class="catalogMenu">
-                  <p class="d-flex justify-content-center m-auto storeButton">          
-                    <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
-                      
-                      Mallas
-                    </button>
-                  </p>
-                </div>
-                <div class="catalogMenu">
-                  <p class="d-flex justify-content-center m-auto storeButton">          
-                    <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
-                      
-                      Jeans
-                    </button>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        
-  
-        <!-- PRODUCTOS -->
 
         <div class="container text-white">
           <div class="row mt-5">
-            <div class="col-lg-4 col-md-12 p-3">                
-              <div class="card rounded-4" style="background-color:#2d3138"; >
-                
-              <img src="Imagenes/Producto1.jpg" class="cardImgStyle d-block mainCarousel img-fluid " alt="Ropa1">
+            <!-- CATALOGO -->
+            <div class="col-lg-2 col-md-12 p-3">
+              <div class="d-flex flex-column justify-content-center storeButton m-auto pt-3">
 
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p class="d-flex justify-content-center m-auto storeButton">          
+                  <button class="btn btn-primary buttonCatalog storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#catalaogCollapse" aria-expanded="false" aria-controls="collapseExample">
+                    Catalogo
+                  </button>
+                </p>
+                <div class="collapse " id="catalaogCollapse">
+                  <div class="d-flex flex-column">
+      
+                    <p class="d-flex justify-content-center m-auto storeButton ">          
+                      <button class="btn btn-primary buttonClothesType storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#shoesCollapse" aria-expanded="false" aria-controls="collapseExample">
+                        Calzado
+                      </button>
+                    </p>
+        
+                    <div class="collapse" id="shoesCollapse">
+                      <div class="catalogMenu">
+                        <p class="d-flex justify-content-center m-auto storeButton">          
+                          <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
+                            
+                            Zapatillas
+                          </button>
+                        </p>
+                      </div>
+                      <div class="catalogMenu">
+                        <p class="d-flex justify-content-center m-auto storeButton">          
+                          <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
+                            
+                            Zapatos
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                
+      
+      
+                    <p class="d-flex justify-content-center m-auto storeButton">          
+                      <button class="btn btn-primary buttonClothesType storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#shirtsCollapse" aria-expanded="false" aria-controls="collapseExample">
+                        Remeras
+                      </button>
+                    </p>
+        
+                    <div class="collapse" id="shirtsCollapse">
+                      <div class="catalogMenu">
+                        <p class="d-flex justify-content-center m-auto storeButton">          
+                          <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
+                            
+                            Mangas largas
+                          </button>
+                        </p>
+                      </div>
+                      <div class="catalogMenu">
+                        <p class="d-flex justify-content-center m-auto storeButton">          
+                          <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
+                            
+                            Mangas cortas
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+      
+      
+                    <p class="d-flex justify-content-center m-auto storeButton">          
+                      <button class="btn btn-primary buttonClothesType storeButton" type="button" data-bs-toggle="collapse" data-bs-target="#pantsCollapse" aria-expanded="false" aria-controls="collapseExample">
+                        Pantalones
+                      </button>
+                    </p>
+        
+                    <div class="collapse" id="pantsCollapse">
+                      <div class="catalogMenu">
+                        <p class="d-flex justify-content-center m-auto storeButton">          
+                          <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
+                            
+                            Mallas
+                          </button>
+                        </p>
+                      </div>
+                      <div class="catalogMenu">
+                        <p class="d-flex justify-content-center m-auto storeButton">          
+                          <button class="btn btn-primary buttonClothesDetail storeButton" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
+                            
+                            Jeans
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+      
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-12 p-3">
-              <div class="card" style="background-color:#2d3138"; >
-                
-                
-                <img src="Imagenes/Producto2.webp" class="cardImgStyle d-block mainCarousel img-fluid" alt="Ropa1">
-
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 p-3">
-              <div class="card" style="background-color:#2d3138" >
-                
-                
-                <img src="Imagenes/Producto3.webp" class="cardImgStyle d-block mainCarousel img-fluid" alt="Ropa1">
-
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 p-3">
-              <div class="card" style="background-color:#2d3138"; >
-                
-                
-                <img src="Imagenes/Producto4.webp" class="cardImgStyle d-block mainCarousel img-fluid" alt="Ropa1">
-
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-            
+            <!-- PRODUCTOS -->
+            <div class="col-lg-10 col-md-12 p-3">
+              <div class="row ">
+              
+              
+                <div class="col-lg-4 col-md-12 p-3">                
+                  <div class="card rounded-4 cardStyle" >
+                    
+                  <img src="Imagenes/Zapatilla_Negra_ejercicio_Raya_Blanca.jpg" class="cardImgStyle d-block mainCarousel img-fluid " alt="Zapatillas Negras para hacer deporte sin cordones">
   
+                    <div class="card-body">
+                      <h5 class="card-title">Zapatillas Negras Ajustables</h5>
+                      
+                      <h5>$5300</h5>
+                      <p class="card-text">Zapatillas ergonomicas con almohadillas incorparadas para suavizar el impacto a la hora de hacer ejercicio </p>
+                      <a href="#" class="btn btn-primary">Agregar al carro</a>
+                    </div>
+                  </div>
+                </div>
+  
+                
+                <div class="col-lg-4 col-md-12 p-3">
+                  <div class="card rounded-4 cardStyle" >
+                    
+                    
+                    <img src="Imagenes/Zapatilla_Negra_ejercicio.webp" class="cardImgStyle d-block mainCarousel img-fluid" alt="Zapatillas Negras para hacer deporte con cordones">
+    
+                      <div class="card-body">
+                        <h5 class="card-title">Zapatillas Negras con Cordones</h5>
+                        <h5>$4300</h5>
+                        <p class="card-text">Zapatillas ergonomicas con cubierta antimanchas y semi impermiables, ideal para un dia de lluvia</p>
+                        <a href="#" class="btn btn-primary">Agregar al carro</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 p-3">
+                  <div class="card rounded-4 cardStyle" >
+                    
+                    
+                    <img src="Imagenes/Zapatilla_Blanca.webp" class="cardImgStyle d-block mainCarousel img-fluid" alt="Zapatillas Blancas con rayas negras">
+    
+                      <div class="card-body">
+                        <h5 class="card-title">Zapatillas Blancas con cordones</h5>
+                        <h5>$3600</h5>
+                        <p class="card-text">Zapatillas blancas con rayas negras y cordones</p>
+                        <a href="#" class="btn btn-primary">Agregar al carro</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 p-3">
+                  <div class="card rounded-4 cardStyle" >
+                    
+                    
+                    <img src="Imagenes/Zapatilla_Negra_Rayas_Blancas.webp" class="cardImgStyle d-block mainCarousel img-fluid" alt="Zapatillas Negras con rayas blancas">
+    
+                      <div class="card-body">
+                        <h5 class="card-title">Zapatillas Negras con Cordones</h5>
+                        <h5>$3300</h5>
+                        <p class="card-text">Zapatillas negras con rayas blancas y cordones</p>
+                        <a href="#" class="btn btn-primary">Agregar al carro</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div>              
       </main>
   
       <footer>
@@ -243,13 +254,21 @@
               <nav >
                 <ul class="nav justify-content-end bg-danger text-black">
                     <li class="nav-item ">
-                      <a class="nav-link active text-black px-1" aria-current="page" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                      <a class="nav-link active text-black px-1" href="https://www.instagram.com/" target="_blank">
+                        <img src="Imagenes/Instagram_icon.png" alt="Instagram">
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-black px-1" href="https://twitter.com/"  target="_blank">Twitter</a>
+                      <a class="nav-link active text-black px-1" href="https://twitter.com/" target="_blank">
+                        <img src="Imagenes/Twitter_icon.png" alt="Twitter">
+                      </a>
+                      
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-black px-1" href="https://facebook.com/"  target="_blank">Facebook</a>
+                      <a class="nav-link active text-black px-1" href="https://www.instagram.com/" target="_blank">
+                        <img src="Imagenes/Facebook_icon.png" alt="Instagram">
+                      </a>
+                      
                     </li>
                   </ul>
             </nav>
@@ -260,12 +279,7 @@
         <div class="container-fluid bg-white">
           <div class="row pt-2">
             <div class="col-lg-4 col-md-12 p-3 ">              
-              <ul class="d-flex flex-column align-items-center">
-                <!-- <li class="container-fluid">
-                  <p class="text-start">
-                    Acerca de Nosotros
-                  </p>
-                </li> -->
+              <ul class="d-flex flex-column align-items-center">              
                 <li>
                   <a href="">                  
                     <p class="fw-bold fs-5">

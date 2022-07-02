@@ -3,12 +3,22 @@ body {
   margin: 0px;
   background-color: black; }
 
+.mainStyle {
+  margin-top: 80px;
+  margin-bottom: 40px; }
+
+.cardStyle {
+  background-color: #2d3138; }
+
 .cardImgStyle {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px; }
 
+.buttonHeader {
+  background-color: #52111111; }
+
 .storeButton {
-  width: 70%; }
+  width: 100%; }
 
 .buttonCatalog {
   background-color: #FF3737; }
